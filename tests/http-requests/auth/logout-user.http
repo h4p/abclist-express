@@ -1,0 +1,9 @@
+POST /v1/auth/logout HTTP/1.1
+Host: localhost:3000
+Accept: application/json
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjEwMGViYTZiNDIwNWZjNjFlNWNjMTAiLCJpYXQiOjE2NDUyMjAyOTgsImV4cCI6MTY0NTIyMjA5OCwidHlwZSI6ImFjY2VzcyJ9.NoI7b-SNYmvK84_cDHjg9iaBBsG-PEJJzFn0B4OGtA8
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjEwMGViYTZiNDIwNWZjNjFlNWNjMTAiLCJpYXQiOjE2NDUyMjAyOTgsImV4cCI6MTY0NzgxMjI5OCwidHlwZSI6InJlZnJlc2gifQ.8qZaKpRRPf_7jgqB075BfpFAC5vCyTTtHefCLK0XID8"
+}

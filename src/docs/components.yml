@@ -1,5 +1,71 @@
 components:
   schemas:
+    Abclist:
+      type: object
+      properties:
+        user:
+          type: string
+        topic:
+          type: string
+        completed:
+          type: number
+        abclist:
+          type: object
+          properties:
+            a:
+              type: string
+            b:
+              type: string
+            c:
+              type: string
+            d:
+              type: string
+            e:
+              type: string
+            f:
+              type: string
+            g:
+              type: string
+            h:
+              type: string
+            i:
+              type: string
+            j:
+              type: string
+            k:
+              type: string
+            l:
+              type: string
+            m:
+              type: string
+            n:
+              type: string
+            o:
+              type: string
+            p:
+              type: string
+            q:
+              type: string
+            r:
+              type: string
+            s:
+              type: string
+            t:
+              type: string
+            u:
+              type: string
+            v:
+              type: string
+            w:
+              type: string
+            x:
+              type: string
+            y:
+              type: string
+            z:
+              type: string
+
+
     User:
       type: object
       properties:

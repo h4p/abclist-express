@@ -15,7 +15,7 @@ module.exports = router;
 
 /**
  * @swagger
- * /abclist:
+ * /abclists:
  *   get:
  *     summary: Get all abclists
  *     description: Only admins can retrieve all abclists.

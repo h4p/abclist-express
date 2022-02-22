@@ -17,7 +17,7 @@ const defaultRoutes = [
     route: userRoute,
   },
   {
-    path: '/abclist',
+    path: '/abclists',
     route: abclistRoute,
   },
 ];

@@ -5,7 +5,11 @@ const { Abclist } = require('../models');
  * @returns {Promise<QueryResult>}
  */
 const queryAbclists = async () => {
-  const abclists = await Abclist.find();
+  const filter = {};
+
+  // Equivalently, you can call Abclist.find() with no arguments
+  // and get the same result.
+  const abclists = await Abclist.find(filter);
   return abclists;
 };
 
