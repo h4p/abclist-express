@@ -3,12 +3,8 @@ components:
     Abclist:
       type: object
       properties:
-        user:
-          type: string
         topic:
           type: string
-        completed:
-          type: number
         abclist:
           type: object
           properties:
@@ -64,7 +60,9 @@ components:
               type: string
             z:
               type: string
-
+      example:
+        topic: Animals
+        abclist: {"a": "Anteater", "b": "Bear", "c": "Chameleon"}
 
     User:
       type: object

@@ -1,0 +1,14 @@
+POST /v1/abclists/ HTTP/1.1
+Host: localhost:3000
+Accept: application/json
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjEwMTUwY2QxZGE0ODAwYzIwNTA0OTMiLCJpYXQiOjE2NDU3Mzg5NDgsImV4cCI6MTY0NTc0MDc0OCwidHlwZSI6ImFjY2VzcyJ9.vGzNPo-YfZdx_lUddtgpLbuhjqlH6We3-fjXYsTUag4
+
+{
+  "topic": "Movies",
+  "abclist": {
+    "a": "Armageddon",
+    "b": "Batman Forever",
+    "c": "Constantine"
+  }
+}

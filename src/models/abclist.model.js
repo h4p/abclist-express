@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { toJSON } = require('./plugins');
+const { toJSON, paginate } = require('./plugins');
 
 const abclistSchema = mongoose.Schema(
   {
@@ -13,13 +13,10 @@ const abclistSchema = mongoose.Schema(
       trim: true,
       required: true,
     },
-    completed: {
-      type: Number,
-      default: 0,
-    },
     abclist: {
       type: Map,
       of: String,
+      required: true,
     },
   },
   {
@@ -29,6 +26,7 @@ const abclistSchema = mongoose.Schema(
 
 // add plugin that converts mongoose to json
 abclistSchema.plugin(toJSON);
+abclistSchema.plugin(paginate);
 
 /**
  * @typedef Abclist
