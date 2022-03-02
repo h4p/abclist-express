@@ -2,11 +2,11 @@ POST /v1/users/ HTTP/1.1
 Host: localhost:3000
 Accept: application/json
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjEwMTUwY2QxZGE0ODAwYzIwNTA0OTMiLCJpYXQiOjE2NDUyMjExMzIsImV4cCI6MTY0NTIyMjkzMiwidHlwZSI6ImFjY2VzcyJ9.9zOstFrGduI4G-oX04dEL-jxnkhbZt4S2-Qo5sJQ84Y
+Authorization: bearer {{ bearer }}
 
 {
   "name": "Boris",
   "email": "boris@becker.com",
-  "password": "password1",
+  "password": "secret",
   "role": "user"
 }

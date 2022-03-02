@@ -2,7 +2,7 @@ PATCH /v1/abclists/6218012bf6683b15d099611f HTTP/1.1
 Host: localhost:3000
 Accept: application/json
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjEwMTUwY2QxZGE0ODAwYzIwNTA0OTMiLCJpYXQiOjE2NDU4MjA3MjgsImV4cCI6MTY0NTgyMjUyOCwidHlwZSI6ImFjY2VzcyJ9.ZcJ2v4JJPMjLIOTiRhn9poweXa0O8en2xR_oY1ikDhc
+Authorization: bearer {{ bearer }}
 
 {
   "topic": "Superheroes"

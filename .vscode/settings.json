@@ -1,0 +1,10 @@
+{
+    "rest-client.environmentVariables": {
+        "sandbox": {
+            "bearer": "",
+            "refresh_token": "",
+        },
+        "production": {
+        }
+    }
+}

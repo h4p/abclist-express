@@ -2,8 +2,8 @@ POST /v1/auth/logout HTTP/1.1
 Host: localhost:3000
 Accept: application/json
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjEwMTUwY2QxZGE0ODAwYzIwNTA0OTMiLCJpYXQiOjE2NDU2MDg0NzcsImV4cCI6MTY0NTYxMDI3NywidHlwZSI6ImFjY2VzcyJ9.U7v-hAG3gS7_n_rF8gtcRYpqAmFqPnv9zN17alP37OM
+Authorization: bearer {{ bearer }}
 
 {
-  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjEwMTUwY2QxZGE0ODAwYzIwNTA0OTMiLCJpYXQiOjE2NDU2MDg0NzcsImV4cCI6MTY0ODIwMDQ3NywidHlwZSI6InJlZnJlc2gifQ.iuw403zCTMJK9IJumxE9-Juw2RZPp2d_oOFMCSInQuI"
+  "refreshToken": {{ refresh_token }}
 }

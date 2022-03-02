@@ -2,5 +2,5 @@ GET /v1/users/6210150cd1da4800c2050493 HTTP/1.1
 Host: localhost:3000
 Accept: application/json
 Content-Type: application/json
-Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2MjEwMTUwY2QxZGE0ODAwYzIwNTA0OTMiLCJpYXQiOjE2NDU5MTI4OTEsImV4cCI6MTY0NTkxNDY5MSwidHlwZSI6ImFjY2VzcyJ9.Wqs1wUtSnVJG-8ugxJuKEezCtkMq5xmflzgfBJKBRyY
+Authorization: bearer {{ bearer }}
 
